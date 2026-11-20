@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 204" width="880" height="204" role="img" aria-label="QCHAR.DESIGN — Tomasz Kucharski | Lead AI DevOps Architect &amp; Senior SRE">
+  <defs>
+    <radialGradient id="qdGlowOrange" cx="90%" cy="10%" r="55%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="qdGlowViolet" cx="12%" cy="95%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="qdAccentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="qdLogoSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B2BEC6" />
+      <stop offset="100%" stop-color="#6A7B87" />
+    </linearGradient>
+    <linearGradient id="qdLogoOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F89F64" />
+      <stop offset="100%" stop-color="#F37321" />
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="204" rx="20" fill="#0A0A0A" stroke="#27272a" stroke-width="1.5" />
+  <rect width="880" height="204" rx="20" fill="url(#qdGlowOrange)" />
+  <rect width="880" height="204" rx="20" fill="url(#qdGlowViolet)" />
+
+  <g transform="translate(36, 36)">
+    <rect width="68" height="68" rx="16" fill="#18181b" stroke="#f97316" stroke-opacity="0.45" stroke-width="1.5" />
+    <svg x="10" y="10" width="48" height="48" viewBox="168 56 438 456" fill="none">
+      <polygon fill="url(#qdLogoSilver)" points="412.91,318.39 397.15,308.83 395.13,307.47 245.15,216.54 292.52,439.41 408.04,414.87 418.52,464.21 250.5,499.93 174.65,143.07 211.44,135.25 274.47,173.46 279.42,176.52 460.98,286.6 471.2,334.66 471.24,334.65 495.76,450 453.73,510.53" />
+      <path fill="#8696A1" d="M210.92,137.78l57.1,34.62l-0.08,0.02l10.09,6.11l147.04,89.15l33.65,20.4l9.52,44.79l1.02,4.62l23.83,112.07L455,504.42l-39.42-185.6l-0.41-1.92l-1.73-1.05l-12.81-7.77l0.07-0.1l-4.18-2.53l-144.93-87.87l-10.08-6.11l2.37,11.17l45.69,214.97l0.98,4.63l4.92-1.05l110.6-23.49l9.49,44.71l-163.09,34.67L177.6,144.86L210.92,137.78z M171.66,141.27l0.24,0.97l76.64,360.52L421.47,466l-11.46-53.97l-115.52,24.54L248.8,221.6l144.93,87.87l-0.07,0.1l16.99,10.3l41.79,196.77l45.97-66.21l-25.22-118.61l-0.04,0.01l-9.93-46.71l-35.38-21.45l0,0l-147.04-89.15l0.07-0.02l-68.92-41.78l-39.25,8.34L171.66,141.27z" />
+      <polygon fill="url(#qdLogoOrange)" points="499.84,352.7 499.76,351.58 489.66,304.1 520.58,322.84 547.55,284 546.28,283.22 540.22,254.72 539.82,252.4 512.28,122.91 308.15,166.29 245.14,128.09 554.32,62.36 592.85,243.62 593.02,243.58 603.77,294.17 514.68,422.49" />
+      <path fill="#F37321" d="M552.35,65.2l37.53,176.57l1.01,4.75l0.18-0.04l10.04,47.26l-85.15,122.64l-13.45-63.25l0.12-0.17l-0.4-1.89l-8.91-41.9l23.79,14.42l4.18,2.53l2.79-4.01l24.19-34.83l2.73-4.05l-2.45-1.48l-1.36-6.42l-3.97-18.67l0.09-0.02l-1.01-4.75L515.23,124.7l-0.98-4.63l-4.92,1.05l-200.65,42.64l-57.11-34.62L552.35,65.2z M556.29,59.53l-317.58,67.51l68.92,41.78l202.69-43.08l27.05,127.18l-0.09,0.02l0.72,3.35l4.27,20.07l1.77,8.34l0.06,0.03l-24.19,34.83l-33.88-20.54l11.28,53.08l-0.12,0.17l16.23,76.32l92.98-133.92l0.06-0.01l-11.47-53.99l-0.18,0.04L556.29,59.53z" />
+    </svg>
+  </g>
+
+  <rect x="122" y="24" width="56" height="3" rx="1.5" fill="url(#qdAccentBar)" />
+
+  <g transform="translate(658, 28)">
+    <rect width="186" height="28" rx="14" fill="#052e16" stroke="#10b981" stroke-opacity="0.5" stroke-width="1" />
+    <circle cx="16" cy="14" r="3.5" fill="#10b981" />
+    <text x="27" y="18" fill="#6ee7b7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700" letter-spacing="0.4">100/100 AGENTSCAN A</text>
+  </g>
+
+  <text id="qd-header-wordmark" x="122" y="72" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="34" font-weight="900" letter-spacing="-0.5">
+    <tspan fill="#ffffff">QCHAR</tspan><tspan fill="#f97316">.DESIGN</tspan>
+  </text>
+
+  <text id="qd-header-subtitle" x="122" y="100" fill="#d4d4d8" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14.5" font-weight="600">
+    Tomasz Kucharski  •  Lead AI DevOps Architect &amp; Senior SRE  •  17+ Yrs Linux &amp; Magento 2
+  </text>
+  
+  <g transform="translate(36, 142)">
+    <rect width="142" height="32" rx="10" fill="#18181b" stroke="#f97316" stroke-opacity="0.45" stroke-width="1" />
+    <circle cx="15" cy="16" r="4" fill="#f97316" />
+    <text x="27" y="20" fill="#e4e4e7" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700">Agentic AI &amp; MCP</text>
+  </g>
+  <g transform="translate(186, 142)">
+    <rect width="144" height="32" rx="10" fill="#18181b" stroke="#10b981" stroke-opacity="0.45" stroke-width="1" />
+    <circle cx="15" cy="16" r="4" fill="#10b981" />
+    <text x="27" y="20" fill="#e4e4e7" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700">Linux &amp; Edge SRE</text>
+  </g>
+  <g transform="translate(338, 142)">
+    <rect width="168" height="32" rx="10" fill="#18181b" stroke="#fb7185" stroke-opacity="0.45" stroke-width="1" />
+    <circle cx="15" cy="16" r="4" fill="#fb7185" />
+    <text x="27" y="20" fill="#e4e4e7" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700">Enterprise Magento 2</text>
+  </g>
+  <g transform="translate(514, 142)">
+    <rect width="170" height="32" rx="10" fill="#18181b" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1" />
+    <circle cx="15" cy="16" r="4" fill="#38bdf8" />
+    <text x="27" y="20" fill="#e4e4e7" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700">Astro / React / Android</text>
+  </g>
+  <g transform="translate(692, 142)">
+    <rect width="152" height="32" rx="10" fill="#18181b" stroke="#a78bfa" stroke-opacity="0.45" stroke-width="1" />
+    <circle cx="15" cy="16" r="4" fill="#a78bfa" />
+    <text x="27" y="20" fill="#e4e4e7" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700">26+ Yrs Brand &amp; UI</text>
+  </g>
+</svg>
