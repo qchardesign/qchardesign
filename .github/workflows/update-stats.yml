@@ -1,0 +1,40 @@
+name: Update QD Aggregate Profile Stats
+
+on:
+  schedule:
+    # Weekly refresh every Sunday at 02:15 UTC (strictly outside Mon-Fri working hours)
+    - cron: '15 2 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Generate aggregate private telemetry SVGs
+        env:
+          GH_METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          EXCLUDED_REPOS: ${{ secrets.EXCLUDED_REPOS }}
+        run: node .github/scripts/generate-stats-svg.mjs
+
+      - name: Commit updated SVG assets if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/header.svg assets/stats.svg
+          if git diff --cached --quiet; then
+            echo "Aggregate profile SVGs are already up to date."
+          else
+            git commit -m "chore(profile): refresh aggregate telemetry cards"
+            git push
+          fi
